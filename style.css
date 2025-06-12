@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #202124;
+}
+header{
+    padding: 30px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text{
+    color: white;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 2%;
+vertical-align: middle;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+p:hover{
+    color: #FF6A3A;
+}
+
+.hero2{
+ 
+    padding: 20px;
+}
+.card{
+    width: 630px;
+    height: 360px;
+    background-color: #F8BC5C;
+    border-radius: 20px;
+    text-align: center;
+}
+h1{
+font-weight: 600;
+font-size: 54px;
+line-height: 114.99999999999999%;
+letter-spacing: 2%;
+vertical-align: middle;
+}
+.hero2 img{
+    padding-top: 30px;
+}
+.ota-card .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
